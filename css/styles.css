@@ -1,172 +1,169 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-h1, h2, h3, h4, h5{
-    font-family: 'Montserrat-Black', sans-serif;
-    font-weight: bold;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-weight: bold;
 }
 
-i:hover{
-    color: #f51537;
+i:hover {
+  color: #f51537;
 }
 
-p{
-    color: #8f8f8f;
+p {
+  color: #8f8f8f;
 }
 
-.big-heading{
-      font-size: 3.5rem;
-    line-height: 1.5;
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
-
 
 /* title content */
 
-#title .container-fluid{
-    text-align: left;
-    height: 38rem;
-    padding: 3% 15%;
+#title .container-fluid {
+  text-align: left;
+  height: 38rem;
+  padding: 3% 15%;
 }
 
-.navbar{
-    padding: 0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
 
-.navbar-brand{
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: normal;
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
-.nav-item{
-    padding: 0 18px;
+.nav-item {
+  padding: 0 18px;
 }
 
-.nav-link{
-    font-size: 1.2rem;
-   
+.nav-link {
+  font-size: 1.2rem;
 }
 
-.title-image{
-    width: 50%;
-    transform: rotate(25deg);
-    margin-left: 30%;
-    position: absolute;
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  margin-left: 30%;
+  position: absolute;
 }
 
-.button{
-    margin: 5% 3% 5% 0;
+.button {
+  margin: 5% 3% 5% 0;
 }
 
-#features{
-padding: 10% 10%;
-position: relative;
- 
+#features {
+  padding: 10% 10%;
+  position: relative;
 }
 
-.white-section{ 
-    background-color: white;
-
+.white-section {
+  background-color: white;
 }
 
-.color-section{
-    background-color: #ff4c68;
-    color: white;
+.color-section {
+  background-color: #ff4c68;
+  color: white;
 }
 
-.feature-item{
-    padding: 3%;
+.feature-item {
+  padding: 3%;
 }
 
-.fas{
-   color: #ff4c68;
-    
+.fas {
+  color: #ff4c68;
 }
 
-.testimonial-text{
-    font-size: 3rem;
-    line-height: 1.5;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.feature-title{
-    margin-top: 3rem;
-    font-size: 1.5rem;
+.feature-title {
+  margin-top: 3rem;
+  font-size: 1.5rem;
 }
 
-#testimonials{
- background-color: #ef8172;
- 
+#testimonials {
+  background-color: #ef8172;
 }
 
-.carousel-inner{
-    padding: 10% 15%;
+.carousel-inner {
+  padding: 10% 15%;
 }
-.testimonial-image{
-    height: 7rem;
-    border-radius: 100%;
-    margin: 3%;
+.testimonial-image {
+  height: 7rem;
+  border-radius: 100%;
+  margin: 3%;
 }
-#press{
-    background-color: #ef8172;
-    padding-bottom: 3%;
-    
-}
-
-.press-logo{
-    width: 15%;
-    margin: 20px 20px 50px;
-}
-#pricing{
-     padding: 50px;
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
 }
 
-.pricing-text{
-      font-size: 2.5rem;
-    line-height: 1.5;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing {
+  padding: 50px;
 }
 
-.pricing-column{
-    padding: 3% 2%;
+.pricing-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
-#cta{
-    padding-top: 10rem;
-    height: 27rem;
-    font-size: 3.5rem;
-    font-weight: bold;
+.pricing-column {
+  padding: 3% 2%;
 }
 
-.cta-text{
-    font-size: 2.1rem;
+#cta {
+  padding-top: 10rem;
+  height: 27rem;
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
-#footer{
-    padding: 2.3rem;
+.cta-text {
+  font-size: 2.1rem;
 }
 
-.social-contact{
-    padding: 3% 4%;
+#footer {
+  padding: 2.3rem;
 }
 
-@media (max-width: 1024px) and (min-width: 914px)
-{
-    #title .container-fluid{
-        height: 48rem;
-    }
+.social-contact {
+  padding: 3% 4%;
 }
 
-@media (max-width: 991px){
-    #title .container-fluid{
-        height: 65rem;
-       text-align: center;
-    }
-    .title-image{
-        transform: rotate(0deg);
-        margin-top: 40px;
-        margin-left: 0;
-        position: static;
-
-    }
+@media (max-width: 1024px) and (min-width: 914px) {
+  #title .container-fluid {
+    height: 48rem;
+  }
 }
+
+@media (max-width: 991px) {
+  #title .container-fluid {
+    height: 65rem;
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0deg);
+    margin-top: 40px;
+    margin-left: 0;
+    position: static;
+  }
+}
+
+/*nsi adding a comment */
